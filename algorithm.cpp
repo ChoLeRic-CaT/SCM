@@ -3,7 +3,7 @@ using  namespace std;
 int main()
 {
     int i, j,temp,pass=0;
-    int a[10]= {10,2,0,14,43,25,18,1,5,45};
+    int a[10]= {10,2,0,33,43,25,18,1,5,45};
     cout <<"Input list ...\n";
     for(i=0 ; i< 10 ; i++) 
     {
@@ -31,3 +31,4 @@ int main()
     cout<<"\nNumber of rounds taken to assemble the list:"<<pass<<endl;
     return 0;
 } 
+// changed 14 to 33
